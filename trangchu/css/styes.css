@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header .header__top {
+  padding: 0px 200px;
+}
+header .header__top nav .menus {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header .header__top nav .menus .menus__item {
+  display: inline-block;
+  text-indent: -1em;
+  margin-left: 1em;
+}
+header .header__top nav .menus .menus__item:first-child {
+  margin-left: 0px;
+}
+header .header__top nav .menus .menus__item .menus__link {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000;
+}
+header .header__container {
+  padding: 30px 200px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__container .logo img {
+  margin-right: 150px;
+  max-width: 600px;
+  height: 50px;
+  width: auto;
+}
+header .header__container nav .menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header .header__container nav .menu .menu__item {
+  margin-left: 40px;
+}
+header .header__container nav .menu .menu__item:first-child {
+  margin-left: 0;
+}
+header .header__container nav .menu .menu__item .menu__link {
+  color: beige;
+  text-decoration: none;
+  font-weight: bold;
+}
+header .header__container nav .menu .menu__item .menu__link:hover {
+  color: #FFD700;
+}
+
+.product__list {
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  grid-gap: 1rem;
+}
+.product__item {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+}
+.product__item__image img {
+  max-width: 100px;
+  height: auto;
+}
+.product__item__title {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.product__item__meta {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=styes.css.map */
